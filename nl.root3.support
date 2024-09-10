@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>Title</key>
+    <string>JAMF LAPS</string>
+    <key>Logo</key>
+    <string>/Library/.LAPS/Branding/Icons/Jamf-color.png</string>
+    <key>OpenAtLogin</key>
+    <true/>
+    <key>InfoItemOne</key>
+    <string>ExtensionA</string>
+    <key>InfoItemTwo</key>
+    <string>ExtensionB</string>
+    <key>HideSecondRowInfoItems</key>
+    <true/>
+    <key>HideThirdRowInfoItems</key>
+    <true/>
+    <key>HideFirstRowButtons</key>
+    <true/>
+    <key>HideSecondRowButtons</key>
+    <true/>
+    <key>ExtensionTitleA</key>
+    <string>LAPS Username</string>
+    <key>ExtensionSymbolA</key>
+    <string>lock</string>
+    <key>ExtensionTypeA</key>
+    <string>PrivilegedScript</string>
+    <key>OnAppearAction</key>
+    <string>/Library/.LAPS/Scripts/JAMFLAPS.sh</string>
+    <key>ExtensionTitleB</key>
+    <string>LAPS Password</string>
+    <key>ExtensionSymbolB</key>
+    <string>lock</string>
+    <key>ExtensionTypeB</key>
+    <string>PrivilegedScript</string>
+    <key>FooterText</key>
+    <string>JAMF LAPS Powered by Support App @jordywitteman</string>
+    <key>StatusBarIconSFSymbol</key>
+    <string>key.viewfinder</string>
+  </dict>
+</plist>
